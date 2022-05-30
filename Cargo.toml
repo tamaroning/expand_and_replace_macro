@@ -1,0 +1,15 @@
+[package]
+name = "expand_and_replace_macro"
+version = "0.1.0"
+edition = "2021"
+author = "tamaroning"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[lib]
+plugin = true
+
+[package.metadata.rust-analyzer]
+rustc_private = true
